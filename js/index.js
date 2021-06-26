@@ -7,12 +7,9 @@ function addTask() {
     var textNode = document.createTextNode(taskName);
     li.appendChild(textNode);
     if (taskName === '') {
-        alert("You must write something!");
+        alert("Please provide a task name");
     } else {
         document.getElementById("allTasks").appendChild(li);
     }
     document.getElementById("taskName").value = "";
-
-    var span = document.createElement("span");
-    var txt = document.createTextNode("");
 }
