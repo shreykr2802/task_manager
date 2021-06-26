@@ -10,14 +10,16 @@
         <h3>Manage your Task here</h3>
     </div>
     <div>
-        <h3>Add your Task</h3>
-        <input type="text" id="taskName" />
-        <button onclick="addTask()">Add</button>
+        <div class="addTaskContainer">
+            <input type="text" id="taskListName" placeholder="Add List" />
+            <p id="noText"></p>
+            <button onclick="addList()" id="addTaskButton">Add</button>
+        </div>
     </div>
-    <ul id="allTasks">
-
+    <ul id="allTasksList" class="allTaskList">
     </ul>
     <script src="./js/index.js" type="text/javascript"></script>
 </body>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 
 </html>

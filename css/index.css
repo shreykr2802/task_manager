@@ -1,6 +1,6 @@
-h1 {
-    font-size: 5rem;
-    color: red;
+body {
+    background-color: #DBE4EE;
+    font-family: 'Roboto', sans-serif;
 }
 
 .header {
@@ -10,3 +10,63 @@ h1 {
     justify-content: center;
 }
 
+.addTaskContainer {
+    border: 1px solid #3E7CB1;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    background-color: #3E7CB1;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.addTaskContainer > input {
+    width: 20rem;
+    border: 1px solid #7D8491;
+    height: 2rem;
+    padding: 10px;
+}
+
+.addTaskContainer > button {
+    width: 5rem;
+    border: 1px solid #DBE4EE;
+    height: 2rem;
+    border-radius: 0.4rem;
+    color: black;
+    background-color: #DBE4EE;
+    cursor: pointer;
+}
+
+.toDoList {
+    height: 10rem;
+    width: 10rem;
+    border-radius: 0.5rem;
+    border: 1px solid #81A4CD;
+    list-style: none;
+    background-color: #81A4CD;
+    padding: 1rem;
+    margin: 1rem;
+    display: flex;
+    flex-flow: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.allTaskList {
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.addTaskNameContainer {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
+}
