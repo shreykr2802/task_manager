@@ -54,7 +54,7 @@ ul {
 
 .toDoList {
     min-height: 10rem;
-    width: 10rem;
+    width: 15rem;
     border-radius: 0.5rem;
     border: 1px solid #81A4CD;
     list-style: none;
@@ -66,6 +66,9 @@ ul {
     flex-wrap: wrap;
     align-items: center;
     justify-content: flex-start;
+    color: rgb(100, 14, 199);
+    font-size: large;
+    font-weight: bold;
 }
 
 .allTaskList {
@@ -96,9 +99,28 @@ ul {
     justify-content: space-around;
 }
 
+.addTaskDiv > input {
+    width: 80%;
+    border: 1px solid #7D8491;
+    height: 2rem;
+    padding: 10px;
+}
+
+.addTaskDiv > button {
+    width: 2.5rem;
+    border: 1px solid #DBE4EE;
+    height: 2rem;
+    border-radius: 0.4rem;
+    color: black;
+    background-color: #DBE4EE;
+    cursor: pointer;
+}
+
 .taskNameListItem {
     border: 1px solid #E9F1F7;
-    border-radius: 0.8rem;
+    border-radius: 0.2rem;
     background-color: #E9F1F7;
     margin: 0.5rem 0.1rem;
+    padding: 0.1rem;
+    overflow-wrap: break-word;
 }
