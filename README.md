@@ -2,9 +2,9 @@
 
 A project for managing Task with multiple list and multiple items under list with just plain old vanilla Javascript, HTML and some CSS.
 
-<!-- # Poject Link
+# Poject Link
 
-<a href="http://shreykr.com/spacex-visualization/">SpaceX Data Visualization</a> -->
+<a href="https://shreykr2802.github.io/task_manager/">Task Manager</a>
 
 # Project Status
 
@@ -29,5 +29,7 @@ No need of any server to run it, just double click `index.html` file.
 
 # Additional Resources used
 
-<a href="https://fonts.google.com/">Google Fonts</a> - For Fonts
-<a href="https://fontawesome.com/">Font Awesome</a> - For Icons
+<ul>
+<li><a href="https://fonts.google.com/">Google Fonts</a> - For Fonts</li>
+<li><a href="https://fontawesome.com/">Font Awesome</a> - For Icons</li>
+</ul>
